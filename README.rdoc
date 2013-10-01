@@ -1,0 +1,15 @@
+1. Problem 1
+Look at 20131001075948_create_posts.rb and 20131001081956_fix_column_name.rb in the db/migrate folder and 
+post.rb in the app/models carefully
+
+2. Problem 2
+**rake command to return true or false depending on whether the number is a valid number.
+rake credit_card:check number=79927398713
+
+**rake command to return original number of the credit card inputed.
+rake credit_card:export number=7992739871
+
+3. Problem 3
+**rake command to test the design to prevent payment duplicating 
+rake payment:update service_id=9 line_item_id=3 body=346
+
